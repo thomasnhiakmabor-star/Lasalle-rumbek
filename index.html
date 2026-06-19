@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>La Salle Boys Secondary School | Rumbek</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    line-height:1.6;
+    color:#333;
+}
+
+header{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.logo{
+    width:120px;
+    height:120px;
+    object-fit:contain;
+    margin-bottom:10px;
+}
+
+nav{
+    background:#00509e;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+nav ul li a{
+    display:block;
+    color:white;
+    text-decoration:none;
+    padding:15px;
+    font-weight:bold;
+}
+
+nav ul li a:hover{
+    background:#003366;
+}
+
+.hero{
+    background:#f4f4f4;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero h1{
+    color:#003366;
+    font-size:3rem;
+}
+
+.hero h2{
+    margin-top:10px;
+    color:#00509e;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    background:#003366;
+    color:white;
+    text-decoration:none;
+    padding:12px 25px;
+    border-radius:5px;
+}
+
+section{
+    padding:60px 10%;
+}
+
+h2{
+    color:#003366;
+    margin-bottom:20px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#f4f4f4;
+    padding:20px;
+    border-radius:10px;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:15px;
+}
+
+.gallery img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.news-item{
+    background:#f4f4f4;
+    padding:15px;
+    margin-bottom:15px;
+    border-left:5px solid #00509e;
+}
+
+.activities ul{
+    padding-left:20px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+input,
+textarea,
+select{
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+button{
+    background:#003366;
+    color:white;
+    border:none;
+    padding:12px;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+button:hover{
+    background:#00509e;
+}
+
+.contact-box{
+    margin-bottom:25px;
+}
+
+footer{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.search-box{
+    text-align:center;
+    margin-top:20px;
+}
+
+.search-box input{
+    width:300px;
+    max-width:90%;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:2rem;
+}
+
+nav ul{
+    flex-direction:column;
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <img src="logo.jpg" alt="La Salle School Logo" class="logo">
+
+    <h1>La Salle Boys Secondary School</h1>
+
+    <p>Rumbek, Lakes State, South Sudan</p>
+
+    <h3>Discipline and Diligence for Excellence</h3>
+</header>
+
+<nav>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About Us</a></li>
+<li><a href="#academics">Academics</a></li>
+<li><a href="#admissions">Admissions</a></li>
+<li><a href="#news">News & Events</a></li>
+<li><a href="#activities">Activities</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<section id="home" class="hero">
+
+<h1>Welcome to La Salle Boys Secondary School</h1>
+
+<p>
+A leading institution committed to academic excellence,
+discipline, leadership and character formation.
+</p>
+
+<h2>Discipline and Diligence for Excellence</h2>
+
+<a href="#admissions" class="btn">
+Apply Online
+</a>
+
+<div class="search-box">
+<input type="search"
+placeholder="Search the website...">
+</div>
+
+</section>
+
+<section id="about">
+
+<h2>About Us</h2>
+
+<p>
+La Salle Boys Secondary School is dedicated to providing
+quality education that nurtures disciplined,
+responsible and academically successful young men.
+</p>
+
+<br>
+
+<h3>Vision</h3>
+
+<p>
+To be a centre of excellence producing disciplined,
+competent and innovative leaders for South Sudan.
+</p>
+
+<br>
+
+<h3>Mission</h3>
+
+<p>
+To provide quality education rooted in discipline,
+diligence, integrity and academic excellence.
+</p>
+
+</section>
+
+<section id="academics">
+
+<h2>Academics</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Science Department</h3>
+<p>Biology, Chemistry and Physics.</p>
+</div>
+
+<div class="card">
+<h3>Mathematics Department</h3>
+<p>Strong analytical and problem-solving skills.</p>
+</div>
+
+<div class="card">
+<h3>Languages</h3>
+<p>English Language and Literature.</p>
+</div>
+
+<div class="card">
+<h3>Humanities</h3>
+<p>History, Geography and Religious Studies.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="admissions">
+
+<h2>Online Admissions</h2>
+
+<form>
+
+<input type="text"
+placeholder="Student Full Name"
+required>
+
+<input type="date"
+required>
+
+<select required>
+<option value="">Select Class</option>
+<option>Senior One</option>
+<option>Senior Two</option>
+<option>Senior Three</option>
+<option>Senior Four</option>
+</select>
+
+<input type="text"
+placeholder="Previous School">
+
+<input type="text"
+placeholder="Parent / Guardian Name">
+
+<input type="tel"
+placeholder="Phone Number">
+
+<input type="email"
+placeholder="Email Address">
+
+<textarea
+rows="5"
+placeholder="Additional Information">
+</textarea>
+
+<button type="submit">
+Submit Application
+</button>
+
+</form>
+
+</section>
+
+<section id="news">
+
+<h2>News & Events</h2>
+
+<div class="news-item">
+<h3>Opening of Academic Year</h3>
+<p>
+Students reported successfully for the new school year.
+</p>
+</div>
+
+<div class="news-item">
+<h3>Science Fair</h3>
+<p>
+Students showcased innovative science projects.
+</p>
+</div>
+
+<div class="news-item">
+<h3>Football Tournament</h3>
+<p>
+The school football team participated in regional competitions.
+</p>
+</div>
+
+</section>
+
+<section id="activities" class="activities">
+
+<h2>Co-Curricular Activities</h2>
+
+<ul>
+<li>Football</li>
+<li>Volleyball</li>
+<li>Debate Club</li>
+<li>Drama Club</li>
+<li>Music Club</li>
+<li>Scouting</li>
+<li>Environmental Club</li>
+<li>Leadership Training</li>
+<li>Community Service</li>
+</ul>
+
+</section>
+
+<section id="gallery">
+
+<h2>School Gallery</h2>
+
+<div class="gallery">
+
+<img src="logo.jpg"
+alt="School Logo">
+
+<img src="students.jpg"
+alt="Students">
+
+<img src="campus.jpg"
+alt="School Campus">
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact Us</h2>
+
+<div class="contact-box">
+
+<p>
+<strong>School:</strong>
+La Salle Boys Secondary School
+</p>
+
+<p>
+<strong>Location:</strong>
+Rumbek, Lakes State, South Sudan
+</p>
+
+<p>
+<strong>Phone:</strong>
++211 XXX XXX XXX
+</p>
+
+<p>
+<strong>Email:</strong>
+info@lasalleboysschool.edu.ss
+</p>
+
+</div>
+
+<form>
+
+<input type="text"
+placeholder="Your Name">
+
+<input type="email"
+placeholder="Your Email">
+
+<textarea
+rows="5"
+placeholder="Write your message">
+</textarea>
+
+<button type="submit">
+Send Message
+</button>
+
+</form>
+
+</section>
+
+<footer>
+
+<p>
+La Salle Boys Secondary School
+</p>
+
+<p>
+Discipline and Diligence for Excellence
+</p>
+
+<p>
+© 2026 All Rights Reserved
+</p>
+
+</footer>
+
+</body>
+</html>
